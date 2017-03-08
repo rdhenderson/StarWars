@@ -1,0 +1,88 @@
+ul {
+  list-style-type: none;
+  text-align: center;
+  color: rgb(75, 213, 238);
+  list-style: none;
+    padding-left:0;
+    font-size-adjust: smaller;
+}
+
+.hero-icon {
+    width: 100px;
+    height: 125px;
+    overflow: hidden;
+    background: rgba(100, 100, 100, 0.5);
+}
+
+.hero-col {
+    /*background: rgba(100, 100, 100, 0.5);*/
+
+}
+
+.arena {
+	background-image: url(../images/starwars-bg-2.jpg);
+	background-position: center;
+	min-height: 1000px;
+
+	/*min-height:1000px;*/
+}
+
+.stat-text {
+    /*text-align: center;*/
+    text-align: center;
+}
+
+.centered {
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
+}
+
+/*.border-light {
+	border: 5px blue;
+}
+*/
+.glowing-border {
+    border: 2px solid #dadada;
+    border-radius: 7px;
+}
+
+.glowing-border:focus { 
+    outline: none;
+    border-color: #9ecaed;
+    box-shadow: 0 0 10px #9ecaed;
+}
+
+.border-light {
+    border: 1px solid #4195fc; /* some kind of blue border */
+
+    /* other CSS styles */
+
+    /* round the corners */
+    -webkit-border-radius: 4px;
+       -moz-border-radius: 4px;
+            border-radius: 4px;
+
+    /* make it glow! */
+    -webkit-box-shadow: 0px 0px 4px #4195fc;
+       -moz-box-shadow: 0px 0px 4px #4195fc;
+            box-shadow: 0px 0px 4px #4195fc; /* some variation of blue for the shadow */
+
+}
+
+
+#atk-btn {
+    background-color: rgb(229, 177, 58); /*star wars yellow*/
+    color: color: rgb(75, 213, 238);;
+
+    position: relative;
+    top: 50px;
+
+
+}
+#banner {
+	color: rgb(229, 177, 58);
+}
+body {
+	background-color: black;
+}
